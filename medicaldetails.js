@@ -1,5 +1,5 @@
 var app= require('express').Router();
-var fb= require('../config/fbconfig');
+var fb= require('./fbconfig');
 var utils= require('./utils');
 
 var medicaldetailsobj= {
